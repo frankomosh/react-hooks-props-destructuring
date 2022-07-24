@@ -8,7 +8,7 @@ function App() {
   const genresArr = ["Action", "Adventure", "Science Fiction", "Thriller"];
 
   return (
-    <div className="App">
+    <div className="App"> 
       <MovieCard title={title} genres={genresArr} />
     </div>
   );
